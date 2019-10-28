@@ -9,7 +9,7 @@ export class AppareilComponent implements OnInit {
 
   appareilName: string = 'PC';
   appareilStatus: string = 'éteint';
-
+  
   constructor() { }
 
   ngOnInit() {
