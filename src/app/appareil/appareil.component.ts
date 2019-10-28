@@ -3,18 +3,20 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-appareil',
   templateUrl: './appareil.component.html',
+
 })
 export class AppareilComponent implements OnInit {
 
-    appareilName: string;
-    appareilStatus: string;
+  appareilName: string = 'PC';
+  appareilStatus: string = 'éteint';
 
-  constructor() { 
-    this.appareilName = 'PC';
-    this.appareilStatus = 'éteint';
-  }
+  constructor() { }
 
   ngOnInit() {
+  }
+
+  getStatus() {
+    return this.appareilStatus;
   }
 
 }
