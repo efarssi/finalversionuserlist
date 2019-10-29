@@ -1,12 +1,21 @@
 li, h4, p, div {
   font-family: Segoe UI;
+  
 }
 
 h2 {
  text-align: center;
  width: 100%;
- background:#c2dbcc;
+ background:#c2e0e6;
  text-decoration :  underline;
  font-size:150%;
  font-family: Trebuchet MS;
  }
+ 
+h3 {
+ text-align: center;
+ width: 100%;
+ font-size:90%;
+ font-family: Segoe UI;
+ }
+

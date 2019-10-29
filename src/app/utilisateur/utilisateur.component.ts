@@ -7,11 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UtilisateurComponent implements OnInit {
   pseudoEnter: string;
-  public name ="";
+  nom1 = 'Elias';
+  nom2 = 'Zakaria';
+  nom3 = '';
+  nom4 = '';
+  nom5 = '';
+  nom6 = '';
+  nom7 = '';
+  nom8 = '';
+  nom9 = '';
+  nom10 = '';
+  virgule = ' | ';
 
-  constructor() {
-    this.nom = '38';
-   }
+  constructor() {}
 
   ngOnInit() {}
 
