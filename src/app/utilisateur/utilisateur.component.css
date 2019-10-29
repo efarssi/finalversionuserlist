@@ -1,8 +1,12 @@
+li, h4, p, div {
+  font-family: Segoe UI;
+}
 
-body {
- background-color: blue;
- }
- h1 {
- color: red;
- padding: 60px;
+h2 {
+ text-align: center;
+ width: 100%;
+ background:#c2dbcc;
+ text-decoration :  underline;
+ font-size:150%;
+ font-family: Trebuchet MS;
  }
