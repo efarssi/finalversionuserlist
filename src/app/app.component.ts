@@ -15,5 +15,10 @@ export class AppComponent {
       }, 4000
     );
   }
+
+  onAllumer() {
+    alert('On allume tout !');
 }
+}
+
   

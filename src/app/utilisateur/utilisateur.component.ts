@@ -9,7 +9,7 @@ export class UtilisateurComponent implements OnInit {
   nom: string;
 
   constructor() {
-    this.nom = 'Elias';
+    this.nom = '38';
    }
 
   ngOnInit() {}
