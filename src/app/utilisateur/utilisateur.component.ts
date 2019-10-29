@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./utilisateur.component.css']
 })
 export class UtilisateurComponent implements OnInit {
-  nom: string;
+  pseudoEnter: string;
+  public name ="";
 
   constructor() {
     this.nom = '38';
