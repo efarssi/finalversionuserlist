@@ -9,7 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class AppareilComponent implements OnInit {
 
   appareilName: string = 'PC';
-  appareilStatus: string = 'éteint';
+  appareilStatus1: string = 'éteint';
+  appareilStatus2: string = 'allumé';
   
   constructor() { }
 
@@ -17,7 +18,8 @@ export class AppareilComponent implements OnInit {
   }
 
   getStatus() {
-    return this.appareilStatus;
+    return this.appareilStatus1;
+    return this.appareilStatus2;
   }
 
 }

@@ -1,3 +1,10 @@
 h5 {
   font-family: Segoe UI;
 }
+
+li {
+border: medium solid #5870b3;
+width: 50%;
+background-color: rgb(205, 228, 255);
+
+}
