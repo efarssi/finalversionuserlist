@@ -3,8 +3,8 @@ h5 {
 }
 
 li {
-border: medium solid #5870b3;
+border: medium solid #000000;
 width: 50%;
-background-color: rgb(205, 228, 255);
+background-color: rgba(150, 150, 150, 0.26);
 
 }

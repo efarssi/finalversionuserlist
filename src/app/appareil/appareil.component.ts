@@ -8,18 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppareilComponent implements OnInit {
 
-  appareilName: string = 'PC';
-  appareilStatus1: string = 'éteint';
-  appareilStatus2: string = 'allumé';
+  appareilName: string = 'PC N°';
+  appareilStatus: string = 'R.A.S.';
+  isAuth = false;
   
-  constructor() { }
+  
+  constructor() {
+    setTimeout(
+      () => {
+        this.isAuth = true;
+      }, 4000
+    );
+   }
 
-  ngOnInit() {
-  }
-
-  getStatus() {
-    return this.appareilStatus1;
-    return this.appareilStatus2;
-  }
-
+   onAllumer() {
+    alert('changement sauvgardé');
+ }
 }

@@ -8,7 +8,8 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { UtilisateurComponent } from './utilisateur/utilisateur.component';
 import { AppareilComponent } from './appareil/appareil.component';
 import { FormsModule } from '@angular/forms';
-styleUrls: ['./app.component.css']
+import { FormulaireComponent } from './formulaire/formulaire.component';
+
 
 @NgModule({
   imports: [
@@ -23,7 +24,8 @@ styleUrls: ['./app.component.css']
     AppComponent,
     TopBarComponent,
     UtilisateurComponent,
-    AppareilComponent
+    AppareilComponent,
+    FormulaireComponent
     
   ],
   bootstrap: [AppComponent]

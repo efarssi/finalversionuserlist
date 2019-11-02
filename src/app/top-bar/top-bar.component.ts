@@ -12,7 +12,7 @@ export class TopBarComponent implements OnInit {
   ngOnInit() {}
 
   allUser() {
-    alert("aucun autre utilisateur pour le moment!");
+    prompt("Entrez un mot de passe. (=1234)");
   }
 
 }
