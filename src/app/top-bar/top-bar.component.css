@@ -2,8 +2,7 @@ h1 {
   font-family: Segoe UI;
 }
 
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/
+button {
+border: medium solid #ffffff27;
+background: url(https://img-19.ccm2.net/ZeQkiteGKjO6zz-Tdw14V7oMaTc=/b2ed7415e2fb4014a48eec62c760e700/ccm-ugc/p-black-light-dark-figures-2560x1440.png);
+}

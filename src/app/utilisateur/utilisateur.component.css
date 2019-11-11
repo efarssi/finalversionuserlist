@@ -1,8 +1,5 @@
 li, h4, p, div {
   font-family: Segoe UI;
-  
-  
-  
 }
 
 h2 {
@@ -20,4 +17,9 @@ h3 {
  font-size:90%;
  font-family: Segoe UI;
  }
+
+button {
+border: medium solid #ffffff4d;
+background:#000000e7;
+}
 

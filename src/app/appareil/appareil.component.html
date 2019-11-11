@@ -1,14 +1,16 @@
 <li>
-  <div *ngIf="appareilStatus1 === 'aucun'"></div>
   <h4> Utilisateur: {{appareilName}}</h4>
   <h4> Statut: {{appareilStatus}}</h4>
-   <input type="text" [(ngModel)]="appareilName">
+   <input type="text" [(ngModel)]="appareilName">  
    <input type="text" [(ngModel)]="appareilStatus">
-   
 </li>
-<p></p>
+
+<p></p>  
+
 <button class="btn btn-success" 
               [disabled]="!isAuth" 
               (click)="onAllumer()">Sauvgarder</button>
+
+        
 
   
